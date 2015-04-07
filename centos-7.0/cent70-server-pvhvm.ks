@@ -46,9 +46,8 @@ eula --agreed
 # Setup the disk
 zerombr
 clearpart --all
-part /boot --fstype=ext3 --size=256 --asprimary
 part / --fstype=ext4 --grow --size=1024 --asprimary
-bootloader --timeout=5 --location=mbr
+bootloader --timeout=2 --location=mbr
 
 # Shutdown when the kickstart is done
 halt
