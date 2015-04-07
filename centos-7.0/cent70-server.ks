@@ -47,7 +47,7 @@ eula --agreed
 zerombr
 clearpart --all --drives=xvda
 part / --fstype=ext4 --grow --size=1024 --asprimary
-bootloader --timeout=2 --driveorder=xvda --append="console=hvc0"
+bootloader --driveorder=xvda --append="console=hvc0"
 
 # Shutdown when the kickstart is done
 halt

@@ -47,7 +47,7 @@ eula --agreed
 zerombr
 clearpart --all
 part / --fstype=ext4 --grow --size=1024 --asprimary
-bootloader --timeout=2 --location=mbr
+bootloader --location=mbr
 
 # Shutdown when the kickstart is done
 halt
