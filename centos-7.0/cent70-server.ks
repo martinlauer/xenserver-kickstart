@@ -10,7 +10,7 @@ url --url http://mirror.rackspace.com/CentOS/7.0.1503/os/x86_64/
 repo --name=centos-updates --mirrorlist=http://mirrorlist.centos.org/?release=7.0.1503&arch=x86_64&repo=updates
 
 # Language and keyboard setup
-lang en_US.UTF-8
+lang de_DE.UTF-8
 keyboard us
 
 # Configure networking without IPv6, firewall off
@@ -24,7 +24,7 @@ network --bootproto=dhcp --device=eth0 --onboot=on
 firewall --enabled --ssh
 
 # Set timezone
-timezone --utc Etc/UTC
+timezone --utc Europe/Berlin
 
 # Authentication
 rootpw --lock
