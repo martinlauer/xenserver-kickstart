@@ -11,7 +11,7 @@ repo --name=centos-updates --mirrorlist=http://mirrorlist.centos.org/?release=7.
 
 # Language and keyboard setup
 lang de_DE.UTF-8
-keyboard us
+keyboard de
 
 # Configure networking without IPv6, firewall off
 
